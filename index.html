@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="site.title">Atelier S.D.C. : Couture sur Mesure et Réparation</title>
+  <meta name="description" content="Handcrafted garments, expert alterations, and thoughtful mending. Every stitch tells a story." data-i18n-alt="site.description">
+
+  <!-- SEO -->
+  <link rel="canonical" href="https://sdcatelier.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Atelier S.D.C. : Bespoke Tailoring and Mending">
+  <meta property="og:description" content="Handcrafted garments, expert alterations, and thoughtful mending. Every stitch tells a story.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=1200&q=80">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="fr_FR">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="site/mark.svg">
+
+
+  <!-- Preconnect for fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Gloock&family=Inter:wght@300;400;500;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gloock&family=Inter:wght@300;400;500;600&display=swap" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gloock&family=Inter:wght@300;400;500;600&display=swap">
+  </noscript>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Schema.org LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://sdcatelier.com",
+    "name": "Atelier S.D.C.",
+    "description": "Bespoke tailoring and mending",
+    "url": "https://sdcatelier.com",
+    "telephone": "",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "42 SE Division Street",
+      "addressLocality": "Portland",
+      "addressRegion": "OR",
+      "postalCode": "97202",
+      "addressCountry": "US"
+    },
+    "slogan": "Bespoke tailoring & mending"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Skip link -->
+  <a href="#main" class="sr-only" style="position:absolute;left:0;top:0;padding:12px 24px;background:#221813;color:#fef5f0;z-index:999;font-size:14px;">Skip to main content</a>
+
+  <!-- Navigation: N3 Floating Pill -->
+  <nav class="nav-pill" role="navigation" aria-label="Main navigation">
+    <a href="." class="nav-logo" aria-label="Atelier S.D.C., home">
+      <!-- Simple geometric mark: two overlapping arcs suggesting needle and thread -->
+      <svg class="nav-logo-mark" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="10" cy="10" r="7" stroke="#9f5f3a" stroke-width="1.2" fill="none"/>
+        <path d="M6 14 Q10 4 14 14" stroke="#057e83" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+      </svg>
+      <span data-i18n="nav.brand">S.D.C.</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#craft" data-i18n="nav.craft">Craft</a></li>
+      <li><a href="#process" data-i18n="nav.process">Process</a></li>
+      <li><a href="#portfolio" data-i18n="nav.portfolio">Portfolio</a></li>
+      <li><a href="#testimonials" data-i18n="nav.testimonials">Testimonials</a></li>
+    </ul>
+    <a href="#consultation" class="nav-cta" data-i18n="nav.book">Book a Visit</a>
+    <!-- Language Switcher -->
+    <div class="nav-lang-switcher">
+      <button class="lang-btn" data-lang="fr" aria-label="Français">FR</button>
+      <span class="lang-sep">/</span>
+      <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
+    </div>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <line x1="3" y1="6" x2="17" y2="6"/>
+        <line x1="3" y1="10" x2="17" y2="10"/>
+        <line x1="3" y1="14" x2="17" y2="14"/>
+      </svg>
+    </button>
+  </nav>
+
+  <main id="main">
+
+    <!-- Hero: H3 Photographic Fold -->
+    <section class="hero" aria-label="Introduction">
+      <div class="hero-image">
+        <!-- Full-bleed photograph: garment on a dress form or in motion -->
+        <img
+          src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=1200&q=80"
+          onerror="this.src='https://images.pexels.com/photos/7915/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1200'; this.setAttribute('width','1920'); this.setAttribute('height','1280')"
+          alt="A tailored garment draped on a dress form in a sunlit atelier"
+          width="1920"
+          height="1280"
+          fetchpriority="high"
+          loading="eager"
+        >
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+      <p class="hero-eyebrow" data-i18n="hero.eyebrow">Bespoke Tailoring Since 2018</p>
+      <h1 data-i18n="hero.title">Garments made to carry your story</h1>
+      <p class="hero-sub" data-i18n="hero.subtitle">Every piece begins with a conversation, takes shape through careful hands, and returns to you wearing exactly like you.</p>
+      <div class="hero-actions">
+        <a href="#consultation" class="btn-primary" data-i18n="hero.ctaPrimary">Book a Consultation</a>
+        <a href="#craft" class="btn-outline" data-i18n="hero.ctaSecondary">See the Craft</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="section section--pivotal" aria-labelledby="problem-title">
+      <div class="container">
+        <div class="problem">
+          <div class="problem-text">
+            <p class="section-label" data-reveal data-i18n="problem.label">The Gap</p>
+            <h2 class="section-title" id="problem-title" data-reveal data-i18n="problem.title">Most clothes don't last because they were never meant to</h2>
+            <p class="section-text" data-reveal data-i18n="problem.text">Fast fashion trains us to replace rather than repair. A loose button, a frayed seam, a hem that has ridden up. Small things that send perfectly good fabric to a drawer. We believe clothing deserves better than that. Every garment has a shape waiting to be restored, a fit waiting to be found.</p>
+          </div>
+          <figure class="problem-image" data-reveal>
+            <img
+              src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=80"
+              alt="Close-up of hands working with fabric and thread on a tailoring table"
+              width="800"
+              height="1000"
+              loading="lazy"
+            >
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solution: F1 Alternating Bands -->
+    <section class="section section--surface" id="craft" aria-labelledby="craft-title">
+      <div class="container">
+        <p class="section-label" data-reveal data-i18n="craft.label">What We Do</p>
+        <h2 class="section-title" id="craft-title" data-reveal data-i18n="craft.title">Three ways we work with cloth</h2>
+
+        <!-- Band 1 -->
+        <div class="band" data-reveal>
+          <figure class="band-visual">
+            <img
+              src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=80&sat=-100&bri=5"
+              alt="A selection of fabric swatches in warm earth tones laid on a work surface"
+              width="800"
+              height="600"
+              loading="lazy"
+            >
+          </figure>
+          <div class="band-text">
+            <span class="band-number">01</span>
+            <h3 class="band-title" data-i18n="craft.band1.title">Bespoke Creation</h3>
+            <p class="band-desc" data-i18n="craft.band1.desc">From sketch to fitting to final stitch. We design and construct garments from scratch: dresses, suits, coats, shaped entirely to your measurements and your life. Two to four fittings, depending on complexity.</p>
+          </div>
+        </div>
+
+        <!-- Band 2 -->
+        <div class="band band--reverse" data-reveal>
+          <figure class="band-visual">
+            <img
+              src="https://images.unsplash.com/photo-1558171813-4c088753af8f?w=800&q=80"
+              alt="A tailor's measuring tape draped across a piece of fabric"
+              width="800"
+              height="600"
+              loading="lazy"
+            >
+          </figure>
+          <div class="band-text">
+            <span class="band-number">02</span>
+            <h3 class="band-title" data-i18n="craft.band2.title">Alteration &amp; Fit</h3>
+            <p class="band-desc" data-i18n="craft.band2.desc">Off-the-rack rarely means off-the-line. We take what you already own and make it move with your body: waistlines taken in, shoulders adjusted, lengths perfected. The best-fitting piece in your closet might already be there.</p>
+          </div>
+        </div>
+
+        <!-- Band 3 -->
+        <div class="band" data-reveal>
+          <figure class="band-visual">
+            <img
+              src="https://images.unsplash.com/photo-1558171813-4c088753af8f?w=800&q=80"
+              alt="Intricate hand-stitching detail on a finished garment"
+              width="800"
+              height="600"
+              loading="lazy"
+            >
+          </figure>
+          <div class="band-text">
+            <span class="band-number">03</span>
+            <h3 class="band-title" data-i18n="craft.band3.title">Mending &amp; Restoration</h3>
+            <p class="band-desc" data-i18n="craft.band3.desc">Visible mending, invisible repair, full restoration. A torn heirloom, a worn elbow, a broken zipper. We treat every garment with the same care, making the repair part of the story rather than hiding it.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Illustration Section: philosophy of slow craft -->
+    <section class="section" aria-labelledby="philosophy-title">
+      <div class="container">
+        <div class="illustration-section">
+          <div class="illustration-container" data-reveal>
+            <img
+              src="https://images.unsplash.com/photo-1558171813-4c088753af8f?w=600&q=80"
+              alt="A spool of thread and needle on a tailor's work surface"
+              width="600"
+              height="600"
+              loading="lazy"
+              style="width:100%;height:auto;border-radius:8px;object-fit:cover;"
+            >
+          </div>
+          <div class="band-text">
+            <p class="section-label" data-reveal data-i18n="philosophy.label">Philosophy</p>
+            <h2 class="section-title" id="philosophy-title" data-reveal data-i18n="philosophy.title">Slow work, worn every day</h2>
+            <p class="section-text" data-reveal data-i18n="philosophy.text1">We don't rush. A garment takes as long as it takes: pattern drafting, muslin fittings, hand-basting, final construction. The result is something you will reach for year after year, because it was made for the person you are, not a mannequin in a warehouse.</p>
+            <p class="section-text" data-reveal style="margin-top: -8px;" data-i18n="philosophy.text2">Every repair, every alteration, every new piece carries the same promise: it will be done well, and it will last.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process: F4 Numbered Steps -->
+    <section class="section section--surface" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <p class="section-label" data-reveal data-i18n="process.label">How It Works</p>
+        <h2 class="section-title" id="process-title" data-reveal data-i18n="process.title">From first conversation to final fitting</h2>
+        <div class="steps">
+          <div class="step" data-reveal>
+            <div class="step-number">01</div>
+            <h3 class="step-title" data-i18n="process.step1.title">Consultation</h3>
+            <p class="step-desc" data-i18n="process.step1.desc">Bring an idea, a photo, or an existing garment. We discuss the shape, the fabric, the occasion, and whether you are looking for something new or a restoration.</p>
+          </div>
+          <div class="step" data-reveal>
+            <div class="step-number">02</div>
+            <h3 class="step-title" data-i18n="process.step2.title">Pattern &amp; Muslin</h3>
+            <p class="step-desc" data-i18n="process.step2.desc">We draft a custom pattern from your measurements and build a test version in plain cotton. This muslin fit is where the real shaping happens.</p>
+          </div>
+          <div class="step" data-reveal>
+            <div class="step-number">03</div>
+            <h3 class="step-title" data-i18n="process.step3.title">Construction</h3>
+            <p class="step-desc" data-i18n="process.step3.desc">Cut the final fabric, baste by hand, stitch on the machine, finish the edges. Hand-finished details where they matter: buttonholes, hems, linings.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio: Gallery of Completed Work -->
+    <section class="section section--surface" id="portfolio" aria-labelledby="portfolio-title">
+      <div class="container">
+        <p class="section-label" data-reveal data-i18n="portfolio.label">Our Work</p>
+        <h2 class="section-title" id="portfolio-title" data-reveal data-i18n="portfolio.title">Completed Projects</h2>
+        
+        <div class="carousel-container">
+          <div class="carousel-track" id="carousel-track">
+            <!-- Projects will be injected by projects.js -->
+          </div>
+          
+          <button class="carousel-btn carousel-btn--prev" aria-label="Previous project">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="15 18 9 12 15 6"/>
+            </svg>
+          </button>
+          <button class="carousel-btn carousel-btn--next" aria-label="Next project">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"/>
+            </svg>
+          </button>
+          
+          <div class="carousel-indicators" id="carousel-indicators">
+            <!-- Indicators injected by projects.js -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proof: P2 Pull Quote -->
+    <section class="section" id="testimonials" aria-labelledby="testimonial-title">
+      <div class="container">
+        <p class="section-label" data-reveal data-i18n="testimonials.label">Kind Words</p>
+        <h2 class="section-title" id="testimonial-title" data-reveal data-i18n="testimonials.title">What people say</h2>
+        
+        <div class="testimonials-grid">
+          <div class="testimonial-card" data-reveal>
+            <div class="testimonial-quote-mark-open">"</div>
+            <p class="testimonial-text" data-i18n="testimonials.items.0.quote">They took a coat my grandmother left me. Moth holes, shrinking at the shoulders, the lining completely torn. They made it feel like coming home. I wear it every winter now.</p>
+            <div class="testimonial-quote-mark-close">"</div>
+            <div class="testimonial-author">
+              <p class="testimonial-name">Elena M.</p>
+              <p class="testimonial-role" data-i18n="testimonials.items.0.role">Restoration client · Portland</p>
+            </div>
+          </div>
+          
+          <div class="testimonial-card" data-reveal>
+            <div class="testimonial-quote-mark-open">"</div>
+            <p class="testimonial-text" data-i18n="testimonials.items.1.quote">The fit is absolutely perfect. I never realized how much difference a proper alteration could make. Every time I wear this suit, someone compliments me.</p>
+            <div class="testimonial-quote-mark-close">"</div>
+            <div class="testimonial-author">
+              <p class="testimonial-name">Marc D.</p>
+              <p class="testimonial-role" data-i18n="testimonials.items.1.role">Bespoke suit client · Vancouver</p>
+            </div>
+          </div>
+          
+          <div class="testimonial-card" data-reveal>
+            <div class="testimonial-quote-mark-open">"</div>
+            <p class="testimonial-text" data-i18n="testimonials.items.2.quote">I brought in a vintage dress that had seen better days. It was restored so beautifully that I cried at the fitting. Truly an artist with fabric.</p>
+            <div class="testimonial-quote-mark-close">"</div>
+            <div class="testimonial-author">
+              <p class="testimonial-name">Sophie L.</p>
+              <p class="testimonial-role" data-i18n="testimonials.items.2.role">Vintage restoration client · Seattle</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Close / CTA: C2 Statement -->
+    <section class="section section--pivotal section--surface" id="consultation" aria-labelledby="close-title">
+      <div class="container">
+        <div class="close-section">
+          <p class="section-label" data-reveal data-i18n="consultation.label">Get in Touch</p>
+          <h2 class="section-title" id="close-title" data-reveal data-i18n="consultation.title">Have a garment that needs attention? Let us talk about it.</h2>
+          <p class="section-text" data-reveal data-i18n="consultation.text">Book a consultation at the atelier, or send a photo and description by email. Every project starts with a conversation. No pressure, no estimates until we have seen the fabric.</p>
+          <div class="close-actions" data-reveal>
+            <a href="mailto:hello@sdcatelier.com" class="btn-primary" data-i18n="consultation.ctaPrimary">Book a Consultation</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer: Ft1 Masthead -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div>
+          <p class="footer-wordmark" data-i18n="footer.brand">S.D.C.</p>
+          <p class="footer-tagline" data-i18n="footer.tagline">Bespoke tailoring &amp; mending</p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="#craft" data-i18n="nav.craft">Craft</a></li>
+          <li><a href="#process" data-i18n="nav.process">Process</a></li>
+          <li><a href="#portfolio" data-i18n="nav.portfolio">Portfolio</a></li>
+          <li><a href="#testimonials" data-i18n="nav.testimonials">Testimonials</a></li>
+          <li><a href="mailto:hello@sdcatelier.com" data-i18n="footer.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Atelier S.D.C. <span data-i18n="footer.rights">All rights reserved.</span></p>
+        <p>42 SE Division Street, Portland, OR 97202</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- GSAP + ScrollTrigger (local, jsDelivr dist) -->
+  <script src="site/gsap-official.min.js"></script>
+  <script src="site/ScrollTrigger-official.min.js"></script>
+  <script>
+    // Explicitly register ScrollTrigger with GSAP
+    // The ScrollTrigger UMD build attaches to window.ScrollTrigger but doesn't
+    // auto-register; we need to call registerPlugin to hook it into GSAP's plugin system
+    if (typeof window.gsap !== "undefined" && typeof window.ScrollTrigger !== "undefined") {
+      window.gsap.registerPlugin(window.ScrollTrigger);
+    }
+  </script>
+
+  <!-- GSAP Starter -->
+  <script src="js/gsap-starter.js"></script>
+  
+  <!-- Multilingual Support -->
+  <script src="js/translations.js"></script>
+  
+  <!-- Portfolio Carousel -->
+  <script src="js/projects.js"></script>
+  
+  <!-- Mobile navigation toggle -->
+  <script>
+    (function () {
+      var toggle = document.querySelector('.nav-toggle');
+      var links = document.querySelector('.nav-links');
+      if (!toggle || !links) return;
+
+      function toggleMenu() {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.style.display = isOpen ? 'none' : 'flex';
+        toggle.setAttribute('aria-label', isOpen ? 'Open menu' : 'Close menu');
+      }
+
+      toggle.addEventListener('click', toggleMenu);
+
+      // Close menu when a link is clicked
+      links.querySelectorAll('a').forEach(function (link) {
+        link.addEventListener('click', function () {
+          toggle.setAttribute('aria-expanded', 'false');
+          links.style.display = 'none';
+          toggle.setAttribute('aria-label', 'Open menu');
+        });
+      });
+
+      // Reset menu display on desktop resize
+      var mediaQuery = window.matchMedia('(min-width: 641px)');
+      mediaQuery.addEventListener('change', function (e) {
+        if (e.matches) {
+          links.style.display = '';
+          toggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    })();
+  </script>
+  
+  <script>
+    // Initialize language switcher and portfolio
+    document.addEventListener('DOMContentLoaded', function () {
+      // Language switcher buttons
+      document.querySelectorAll('[data-lang]').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          I18n.setLang(this.getAttribute('data-lang'));
+        });
+      });
+      
+      // Initialize I18n and then portfolio
+      I18n.init().then(function () {
+        if (typeof Portfolio !== 'undefined') {
+          Portfolio.init();
+        }
+      });
+    });
+  </script>
+  <script>
+    // Initialize motion animations after DOM is ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function () {
+        TastemakerMotion.init({
+          duration: 0.6,
+          distance: 24,
+          ease: "power3.out",
+          staggerStep: 0.08,
+        });
+      });
+    } else {
+      TastemakerMotion.init({
+        duration: 0.6,
+        distance: 24,
+        ease: "power3.out",
+        staggerStep: 0.08,
+      });
+    }
+  </script>
+
+  <!-- Hero entrance sequence -->
+  <script>
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      const heroTl = gsap.timeline({ defaults: { ease: 'power3.out' } });
+
+      heroTl
+        .from('.hero-eyebrow', { opacity: 0, y: 20, duration: 0.6 }, 0.3)
+        .from('.hero h1', { opacity: 0, y: 30, duration: 0.8 }, 0.5)
+        .from('.hero-sub', { opacity: 0, y: 20, duration: 0.6 }, 0.9)
+        .from('.hero-actions', { opacity: 0, y: 16, duration: 0.5 }, 1.1)
+        .from('.hero-image img', { scale: 1.08, duration: 1.4, ease: 'power2.out' }, 0);
+
+      // Subtle parallax on hero image
+      gsap.to('.hero-image img', {
+        yPercent: 8,
+        ease: 'none',
+        scrollTrigger: {
+          trigger: '.hero',
+          start: 'top top',
+          end: 'bottom top',
+          scrub: true
+        }
+      });
+    }
+  </script>
+
+</body>
+</html>

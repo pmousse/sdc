@@ -1,0 +1,11 @@
+<!--
+  Atelier Needle & Thread — Logo Mark
+  Concept: Two overlapping arcs suggesting a needle threading through a loop (the eye of a needle / the path of a stitch)
+  Shapes: One outer circle + one inner curved path
+  Colors: Primary (#9f5f3a) for the circle, Accent (#057e83) for the thread path
+  Built from primitives in the locked palette, no third-party assets
+-->
+<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Needle & Thread logo mark">
+  <circle cx="16" cy="16" r="11" stroke="#9f5f3a" stroke-width="1.5" fill="none"/>
+  <path d="M9 23 Q16 6 23 23" stroke="#057e83" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,200 @@
+{
+  "en": {
+    "site": {
+      "title": "Atelier S.D.C. : Bespoke Tailoring and Mending",
+      "description": "Handcrafted garments, expert alterations, and thoughtful mending. Every stitch tells a story."
+    },
+    "nav": {
+      "brand": "S.D.C.",
+      "craft": "Craft",
+      "process": "Process",
+      "portfolio": "Portfolio",
+      "testimonials": "Testimonials",
+      "book": "Book a Visit"
+    },
+    "hero": {
+      "eyebrow": "Bespoke Tailoring Since 2018",
+      "title": "Garments made to carry your story",
+      "subtitle": "Every piece begins with a conversation, takes shape through careful hands, and returns to you wearing exactly like you.",
+      "ctaPrimary": "Book a Consultation",
+      "ctaSecondary": "See the Craft"
+    },
+    "problem": {
+      "label": "The Gap",
+      "title": "Most clothes don't last because they were never meant to",
+      "text": "Fast fashion trains us to replace rather than repair. A loose button, a frayed seam, a hem that has ridden up. Small things that send perfectly good fabric to a drawer. We believe clothing deserves better than that. Every garment has a shape waiting to be restored, a fit waiting to be found."
+    },
+    "craft": {
+      "label": "What We Do",
+      "title": "Three ways we work with cloth",
+      "band1": {
+        "title": "Bespoke Creation",
+        "desc": "From sketch to fitting to final stitch. We design and construct garments from scratch: dresses, suits, coats, shaped entirely to your measurements and your life. Two to four fittings, depending on complexity."
+      },
+      "band2": {
+        "title": "Alteration & Fit",
+        "desc": "Off-the-rack rarely means off-the-line. We take what you already own and make it move with your body: waistlines taken in, shoulders adjusted, lengths perfected. The best-fitting piece in your closet might already be there."
+      },
+      "band3": {
+        "title": "Mending & Restoration",
+        "desc": "Visible mending, invisible repair, full restoration. A torn heirloom, a worn elbow, a broken zipper. We treat every garment with the same care, making the repair part of the story rather than hiding it."
+      }
+    },
+    "philosophy": {
+      "label": "Philosophy",
+      "title": "Slow work, worn every day",
+      "text1": "We don't rush. A garment takes as long as it takes: pattern drafting, muslin fittings, hand-basting, final construction. The result is something you will reach for year after year, because it was made for the person you are, not a mannequin in a warehouse.",
+      "text2": "Every repair, every alteration, every new piece carries the same promise: it will be done well, and it will last."
+    },
+    "process": {
+      "label": "How It Works",
+      "title": "From first conversation to final fitting",
+      "step1": {
+        "title": "Consultation",
+        "desc": "Bring an idea, a photo, or an existing garment. We discuss the shape, the fabric, the occasion, and whether you are looking for something new or a restoration."
+      },
+      "step2": {
+        "title": "Pattern & Muslin",
+        "desc": "We draft a custom pattern from your measurements and build a test version in plain cotton. This muslin fit is where the real shaping happens."
+      },
+      "step3": {
+        "title": "Construction",
+        "desc": "Cut the final fabric, baste by hand, stitch on the machine, finish the edges. Hand-finished details where they matter: buttonholes, hems, linings."
+      }
+    },
+    "portfolio": {
+      "label": "Our Work",
+      "title": "Completed Projects"
+    },
+    "testimonials": {
+      "label": "Kind Words",
+      "title": "What people say",
+      "items": [
+        {
+          "quote": "They took a coat my grandmother left me. Moth holes, shrinking at the shoulders, the lining completely torn. They made it feel like coming home. I wear it every winter now.",
+          "role": "Restoration client · Portland"
+        },
+        {
+          "quote": "The fit is absolutely perfect. I never realized how much difference a proper alteration could make. Every time I wear this suit, someone compliments me.",
+          "role": "Bespoke suit client · Vancouver"
+        },
+        {
+          "quote": "I brought in a vintage dress that had seen better days. It was restored so beautifully that I cried at the fitting. Truly an artist with fabric.",
+          "role": "Vintage restoration client · Seattle"
+        }
+      ]
+    },
+    "consultation": {
+      "label": "Get in Touch",
+      "title": "Have a garment that needs attention? Let us talk about it.",
+      "text": "Book a consultation at the atelier, or send a photo and description by email. Every project starts with a conversation. No pressure, no estimates until we have seen the fabric.",
+      "ctaPrimary": "Book a Consultation",
+      "ctaSecondary": "Send a Photo"
+    },
+    "footer": {
+      "brand": "S.D.C.",
+      "tagline": "Bespoke tailoring & mending",
+      "contact": "Contact",
+      "rights": "All rights reserved."
+    }
+  },
+  "fr": {
+    "site": {
+      "title": "Atelier S.D.C. : Couture sur Mesure et Réparation",
+      "description": "Vêtements faits main, alterations expertes et réparations soignées. Chaque point raconte une histoire."
+    },
+    "nav": {
+      "brand": "S.D.C.",
+      "craft": "Savoir-faire",
+      "process": "Processus",
+      "portfolio": "Réalisations",
+      "testimonials": "Témoignages",
+      "book": "Réserver"
+    },
+    "hero": {
+      "eyebrow": "Couture sur Mesure depuis 2018",
+      "title": "Des vêtements qui portent votre histoire",
+      "subtitle": "Chaque pièce commence par une conversation, prend forme entre des mains attentives, et vous revient comme une seconde peau.",
+      "ctaPrimary": "Prendre Rendez-vous",
+      "ctaSecondary": "Découvrir le Savoir-faire"
+    },
+    "problem": {
+      "label": "Le Constat",
+      "title": "La plupart des vêtements ne durent pas parce qu'ils n'étaient pas faits pour",
+      "text": "La fast-fashion nous a habités à remplacer plutôt qu'à réparer. Un bouton qui se détache, une couture qui s'effiloche, un ourlet qui remonte. Des détails qui envoient du tissu parfaitement bon dans un tiroir. Nous estimons que chaque vêtement mérite mieux que cela. Chaque pièce a une forme en attente d'être restaurée, un ajustement en attente d'être trouvé."
+    },
+    "craft": {
+      "label": "Nos Services",
+      "title": "Trois façons de travailler le tissu",
+      "band1": {
+        "title": "Création sur Mesure",
+        "desc": "Du croquis à l'essayage, en passant par la dernière couture. Nous concevons et réalisons des vêtements depuis zéro : robes, costumes, manteaux, taillés entièrement sur vos mesures et votre vie. Deux à quatre essayages, selon la complexité."
+      },
+      "band2": {
+        "title": "Alteration & Ajustement",
+        "desc": "Prêt-à-porter ne signifie pas ajusté sur mesure. Nous prenons ce que vous possédez déjà et le faisons épouser votre corps : taille repris, épaules ajustées, longueurs perfectionnées. Le meilleur vêtement de votre penderie est peut-être déjà là, il suffit de le faire ajuster."
+      },
+      "band3": {
+        "title": "Réparation & Restauration",
+        "desc": "Mendage visible, réparation invisible, restauration complète. Un héritage déchiré, un coude usé, une fermeture cassée. Nous traitons chaque vêtement avec le même soin, faisant de la réparation une partie de l'histoire plutôt que de la cacher."
+      }
+    },
+    "philosophy": {
+      "label": "Philosophie",
+      "title": "Un travail lent, porté tous les jours",
+      "text1": "Nous ne précipitons rien. Un vêtement prend le temps qu'il faut : patron sur mesure, essayages en mousseline, couture à la main, construction finale. Le résultat est quelque chose vers lequel vous vous tournerez année après année, parce qu'il a été fait pour la personne que vous êtes, pas pour un mannequin dans un entrepôt.",
+      "text2": "Chaque réparation, chaque alteration, chaque nouvelle pièce porte la même promesse : ce sera bien fait, et cela durera."
+    },
+    "process": {
+      "label": "Comment ça marche",
+      "title": "De la première conversation à l'essayage final",
+      "step1": {
+        "title": "Consultation",
+        "desc": "Apportez une idée, une photo, ou un vêtement existant. Nous discutons de la forme, du tissu, de l'occasion, et de ce que vous cherchez : quelque chose de nouveau ou une restauration."
+      },
+      "step2": {
+        "title": "Patron & Mousseline",
+        "desc": "Nous traçons un patron personnalisé selon vos mesures et réalisons une version d'essai en coton simple. C'est lors de cet essayage en mousseline que le vrai travail de forme commence."
+      },
+      "step3": {
+        "title": "Construction",
+        "desc": "Découpe dans le tissu final, couture à la main, piqûre à la machine, finitions des bords. Détails faits à la main là où ça compte : boutonnières, ourlets, doublures."
+      }
+    },
+    "portfolio": {
+      "label": "Nos Réalisations",
+      "title": "Projets Terminés"
+    },
+    "testimonials": {
+      "label": "Témoignages",
+      "title": "Ce que disent nos clients",
+      "items": [
+        {
+          "quote": "Ils ont pris un manteau que ma grand-mère m'avait laissé. Des trous de mites, des épaules qui rétrécissaient, la doublure complètement déchirée. Ils lui ont rendu son aspect chaleureux. Je le porte tous les hivers maintenant.",
+          "role": "Cliente en restauration · Portland"
+        },
+        {
+          "quote": "L'ajustement est absolument parfait. Je ne m'étais jamais rendu compte à quel point une bonne alteration peut changer quelque chose. Chaque fois que je porte ce costume, on me fait des compliments.",
+          "role": "Client costume sur mesure · Vancouver"
+        },
+        {
+          "quote": "J'ai apporté une robe vintage qui avait connu des jours meilleurs. Elle a été restaurée si magnifiquement que j'ai pleuré lors de l'essayage. Vraiment un artiste avec le tissu.",
+          "role": "Cliente restauration vintage · Seattle"
+        }
+      ]
+    },
+    "consultation": {
+      "label": "Contact",
+      "title": "Un vêtement qui a besoin d'attention ? Parlons-en.",
+      "text": "Réservez une consultation à l'atelier, ou envoyez-nous une photo et une description par email. Chaque projet commence par une conversation. Sans pression, aucun devis avant d'avoir vu le tissu.",
+      "ctaPrimary": "Prendre Rendez-vous",
+      "ctaSecondary": "Envoyer une Photo"
+    },
+    "footer": {
+      "brand": "S.D.C.",
+      "tagline": "Couture sur mesure & réparation",
+      "contact": "Contact",
+      "rights": "Tous droits réservés."
+    }
+  }
+}

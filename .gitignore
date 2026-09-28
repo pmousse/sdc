@@ -1,0 +1,14 @@
+# Directories
+.agents/
+.github/
+.memories/
+.tastemaker/
+.aider-desk/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

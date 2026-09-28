@@ -1,0 +1,78 @@
+{
+  "en": [
+    {
+      "title": "Bridal Gown",
+      "category": "Bespoke Creation",
+      "description": "A flowing silk gown with hand-finished details, created for a summer wedding.",
+      "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=80"
+    },
+    {
+      "title": "Tailored Suit",
+      "category": "Bespoke Creation",
+      "description": "Three-piece wool suit, pattern drafted from scratch, three fittings over six weeks.",
+      "image": "https://images.unsplash.com/photo-1558171813-4c088753af8f?w=800&q=80"
+    },
+    {
+      "title": "Heirloom Coat Restoration",
+      "category": "Restoration",
+      "description": "A grandmother's coat brought back from moth damage and shoulder shrinkage.",
+      "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=80"
+    },
+    {
+      "title": "Dress Alteration",
+      "category": "Alteration",
+      "description": "Off-the-rack dress taken in at the waist and shortened to perfect length.",
+      "image": "https://images.unsplash.com/photo-1558171813-4c088753af8f?w=800&q=80"
+    },
+    {
+      "title": "Custom Overcoat",
+      "category": "Bespoke Creation",
+      "description": "Cashmere overcoat with hand-stitched buttonholes and silk lining.",
+      "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=80"
+    },
+    {
+      "title": "Denim Repair",
+      "category": "Mending",
+      "description": "Visible mending on a favorite pair of jeans, turning wear into art.",
+      "image": "https://images.unsplash.com/photo-1558171813-4c088753af8f?w=800&q=80"
+    }
+  ],
+  "fr": [
+    {
+      "title": "Robe de Mariée",
+      "category": "Création sur Mesure",
+      "description": "Une robe en soie fluide avec des détails finis à la main, créée pour un mariage d'été.",
+      "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=80"
+    },
+    {
+      "title": "Costume sur Mesure",
+      "category": "Création sur Mesure",
+      "description": "Costume trois pièces en laine, patron tracé depuis zéro, trois essayages sur six semaines.",
+      "image": "https://images.unsplash.com/photo-1558171813-4c088753af8f?w=800&q=80"
+    },
+    {
+      "title": "Restauration de Manteau",
+      "category": "Restauration",
+      "description": "Un manteau de grand-mère ramené des dégâts des mites et du rétrécissement des épaules.",
+      "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=80"
+    },
+    {
+      "title": "Ajustement de Robe",
+      "category": "Alteration",
+      "description": "Robe prêt-à-porter reprise à la taille et raccourcie à la longueur parfaite.",
+      "image": "https://images.unsplash.com/photo-1558171813-4c088753af8f?w=800&q=80"
+    },
+    {
+      "title": "Manteau en Cachemire",
+      "category": "Création sur Mesure",
+      "description": "Manteau en cachemire avec boutonnières cousues à la main et doublure en soie.",
+      "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=80"
+    },
+    {
+      "title": "Réparation Jean",
+      "category": "Réparation",
+      "description": "Mendage visible sur un jean préféré, transformer l'usure en art.",
+      "image": "https://images.unsplash.com/photo-1558171813-4c088753af8f?w=800&q=80"
+    }
+  ]
+}

@@ -331,6 +331,7 @@ a {
 /* ===== SECTION COMMON ===== */
 .section {
   padding: var(--space-28) var(--space-6);
+  scroll-margin-top: 80px;
 }
 
 .section--surface {
